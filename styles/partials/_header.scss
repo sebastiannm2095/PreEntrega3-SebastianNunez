@@ -1,53 +1,6 @@
-$mainColor: #f8f9fa; // Asegúrate de definir esta variable en tu archivo SCSS
-
-header {
-    background-color: $mainColor;
-
-    .navbar-nav {
-        color: black;
-
-        li {
-            -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-            animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-        }
-        color: black !important;
-
-        @for $item from 1 through 5 {
-            .nav-item#{$item} {
-                animation-delay: $item * 0.2s;
-            }
-        }
-    }
-}
-
-@-webkit-keyframes text-focus-in {
-    0% {
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-filter: blur(0);
-        filter: blur(0);
-        opacity: 1;
-    }
-}
-
-@keyframes text-focus-in {
-    0% {
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-filter: blur(0);
-        filter: blur(0);
-        opacity: 1;
-    }
-}
 
 
-/*
+
 
 header {
     background-color: $mainColor;
@@ -77,5 +30,3 @@ header {
 
 
  @-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
-
- */
