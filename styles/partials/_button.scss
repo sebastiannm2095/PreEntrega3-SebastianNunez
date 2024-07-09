@@ -1,0 +1,11 @@
+.btn {
+    background-color: $mainColor;
+    border-color: none;
+    color: white;
+
+    &:hover {
+        background-color: $secondaryColor;
+        color: white;
+    }
+}
+

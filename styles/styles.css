@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.contenedor{
+    height: 400px;
+}
+
+.container {
+    width: 100%;
+}
+
+
+
+
+
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+
+
+
+ 
+

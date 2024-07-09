@@ -1,0 +1,28 @@
+.seccion-2 {
+    .container {
+        .h2seccion-2 {
+            text-align: center;
+            margin-top: 3;
+        }
+        .row {
+            .tarjeta {
+                text-align: center;
+                transition: 1s;
+
+                &:hover {
+                    transform: scale(1.1) translateY(-40px);
+                }
+
+            }
+            .imagen_cont_2 {
+                align-items: center;
+                justify-content: center;
+                height: 100px;
+                margin-bottom: 10px;
+                background-color: #b1b7d1;
+                border-radius: 50%;
+            
+        }
+        }
+    }
+}

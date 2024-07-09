@@ -1,0 +1,48 @@
+.seccion-1 {
+    background-color: $mainColor;
+
+    .container {
+        .row {
+            .h2seccion-1{
+                text-align: center;
+            }
+            .pseccion-1{
+                text-align: justify;
+            }
+            .imagen-seccion1{
+                -webkit-animation: flip-in-hor-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: flip-in-hor-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation-delay: 1.5s;
+                    .img-fluid{
+                        border-radius: 10%;
+                    }
+             
+            }
+        }
+    }
+}
+
+@-webkit-keyframes flip-in-hor-bottom {
+    0% {
+      -webkit-transform: rotateX(80deg);
+              transform: rotateX(80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+    }
+    @keyframes flip-in-hor-bottom {
+    0% {
+      -webkit-transform: rotateX(80deg);
+              transform: rotateX(80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+    }
